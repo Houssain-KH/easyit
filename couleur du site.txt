@@ -1,0 +1,5 @@
+bleu : #2583C4;
+jaune : #FFD770;
+
+
+police du logo : Ariel rounded MT bold;
