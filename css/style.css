@@ -36,12 +36,21 @@ body{
 .linkmenutop{
 	color: #FFD770;
 	text-decoration: none;
+	border-color: #2583C4;
 }
-.linkmenutop:hover{
+.linkmenutop:hover:nth-child(1){
 	text-decoration: none;
-	color: #FFD770 ;
+	color:#2583C4 ;
+	background-color: #FFD770 !important;
 }
-
+.show > .btn-outline-secondary.dropdown-toggle {
+	color:#2583C4 !important ;
+	background-color: #FFD770 !important;
+	border-color: #2583C4 !important;
+}
+.show > .btn-outline-secondary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem #2583C4;
+}
 #pub{
 	border: solid 3px ;
 	border-image: linear-gradient( 45deg, #FFD770,#2583C4);
