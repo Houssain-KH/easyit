@@ -46,7 +46,12 @@ body{
 	text-decoration: none;
 	border-color: #2583C4;
 }
-.linkmenutop:hover:nth-child(2){
+.linkmenucompte{
+	color: #FFD770;
+	text-decoration: none;
+	border-color: #2583C4;
+}
+.linkmenucompte:hover{
 	text-decoration: none;
 	color:#2583C4 ;
 	background-color: #FFD770 !important;
