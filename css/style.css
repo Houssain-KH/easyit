@@ -50,6 +50,7 @@ body{
 	color: #FFD770;
 	text-decoration: none;
 	border-color: #2583C4;
+	
 }
 .linkmenucompte:hover{
 	text-decoration: none;
@@ -428,6 +429,14 @@ h2::after {
 /*Footer*/
 .footer{
 	background-image: linear-gradient(to top, #004365, #05527c, #0f6293, #1972ab, #2583c4) !important;
+}
+.btnenvoyernewsletter{
+	background: -webkit-linear-gradient(right, #2583C4, #004365) !important;
+  	background: -o-linear-gradient(right, #2583C4, #004365) !important;
+  	background: -moz-linear-gradient(right, #2583C4, #004365) !important;
+  	background: linear-gradient(right, #2583C4, #004365) !important;
+
+	border-color: #004365 !important;
 }
 
 .footerh1{
