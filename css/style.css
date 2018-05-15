@@ -14,6 +14,14 @@ body{
 #topmenu>li>a:hover{
 	color: #2583C4;
 }
+.btnconexion{
+	background-color: #2583C4;
+}
+.btnsuscribe{
+	background-color: white;
+	border-color: #2583C4;
+	color: #2583C4;
+}
 /*button search general*/
 .boutonsearch{
 	background-color: #FFD770;
@@ -38,10 +46,16 @@ body{
 	text-decoration: none;
 	border-color: #2583C4;
 }
-.linkmenutop:hover:nth-child(1){
+.linkmenutop:hover:nth-child(2){
 	text-decoration: none;
 	color:#2583C4 ;
 	background-color: #FFD770 !important;
+}
+.btn-outline-secondary:hover{
+	border-color: #2583C4;
+}
+.btn-outline-secondary:focus {
+    box-shadow: 0 0 0 .2rem #2583C4;
 }
 .show > .btn-outline-secondary.dropdown-toggle {
 	color:#2583C4 !important ;
@@ -49,7 +63,7 @@ body{
 	border-color: #2583C4 !important;
 }
 .show > .btn-outline-secondary.dropdown-toggle:focus {
-    box-shadow: 0 0 0 .2rem #2583C4;
+    box-shadow: 0 0 0 .2rem #2583C4 !important;
 }
 #pub{
 	border: solid 3px ;
