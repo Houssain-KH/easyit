@@ -427,7 +427,7 @@ h2::after {
 
 /*Footer*/
 .footer{
-	background-color: #004365 !important;
+	background-image: linear-gradient(to top, #004365, #05527c, #0f6293, #1972ab, #2583c4) !important;
 }
 
 .footerh1{
