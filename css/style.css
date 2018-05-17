@@ -522,3 +522,148 @@ section .section-title {
 }
 }
 /*Fin Footer*/
+
+/* Page article detaillé*/
+.titrearticle{
+	font-size: bold;
+	font-size: 20px;
+}
+.descriptionarticle{
+	color: #808080;
+	font-size: 0.9em;
+	line-height: 1.3em;
+	display: block;
+	height: 28px;
+}
+/* breadcrumbs menu horizontale ligne de temps*/
+
+.breadcrumb{
+	background-color: white !important;
+}
+/*fin de breadcrumbs*/
+
+/*Gallery de presentation de produit*/
+.imgpresentation img{
+	height: 300px;	
+}
+.imgminiature ul li img{
+	height: 50px;
+	
+}
+.imgminiature ul{
+	padding: 0px;
+}
+.imgminiature ul li{
+	list-style: none;
+	display: inline;
+	margin-left: 5px;
+}
+
+.logodescription ul li {
+	list-style: none;
+	display: inline;
+	margin-left: 5px;
+}
+/* fin de Gallery de presentation de produit*/
+
+/*blockprix*/ 
+.blockprix h1{
+	color: #004365;
+	font-size: 22px;
+}
+.prixarticle{
+	font-size: 34px;
+	color: #2583C4;
+}
+.hrblockprix{
+	content: "";
+	width: 200px;
+	margin: 0 auto;
+	height: 2px;
+	background:  #FFD770;
+	left: 0;
+	right: 0;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+
+button {
+	outline: none !important;
+	border: none;
+	background: transparent;
+}
+
+button:hover {
+	cursor: pointer;
+}
+.container-achat100-form-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.wrap-achat100-form-btn {
+  width: 60%;
+  display: block;
+  position: relative;
+  z-index: 1;
+  border-radius: 25px;
+  overflow: hidden;
+  margin: 0 auto;
+
+  box-shadow: 0 5px 30px 0px rgba(3, 216, 222, 0.2);
+  -moz-box-shadow: 0 5px 30px 0px rgba(3, 216, 222, 0.2);
+  -webkit-box-shadow: 0 5px 30px 0px rgba(3, 216, 222, 0.2);
+  -o-box-shadow: 0 5px 30px 0px rgba(3, 216, 222, 0.2);
+  -ms-box-shadow: 0 5px 30px 0px rgba(3, 216, 222, 0.2);
+}
+
+.achat100-form-bgbtn {
+  position: absolute;
+  z-index: -1;
+  width: 300%;
+  height: 100%;
+  background: #a64bf4;
+  background: -webkit-linear-gradient(right, #2583C4, #004365, #2583C4, #004365);
+  background: -o-linear-gradient(right, #2583C4, #004365, #2583C4, #004365);
+  background: -moz-linear-gradient(right, #2583C4, #004365, #2583C4, #004365);
+  background: linear-gradient(right, #2583C4, #004365, #2583C4, #004365);
+  top: 0;
+  left: -100%;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.achat100-form-btn {
+  font-family: Poppins-Medium;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.2;
+  text-transform: uppercase;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  width: 100%;
+  height: 40px;
+}
+
+.wrap-achat100-form-btn:hover .achat100-form-bgbtn {
+  left: 0;
+}
+
+/*fin blockkprix*/
+/*fin page article detaillé*/
