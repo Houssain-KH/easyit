@@ -666,4 +666,46 @@ button:hover {
 }
 
 /*fin blockkprix*/
+/*description article*/
+.bloquedescription{
+	margin-left: 100px;
+}
+.bloquedescription1 figure{
+	font-size: 10px;
+}
+.bloquedescription table tr:nth-child(2n+1){
+	background-color: #F2F2F2;
+}
+.bloquedescription table{
+	width: 900px;
+}
+.bloquedescription h3{
+	padding-top: 30px;
+	padding-bottom: 15px;
+	color: #2583C4;
+}
+.bloquedescription table tr td{
+	max-width: 0px;
+}
+.bloquedescription1 p{
+	font-size: 15px;
+	max-width: 900px;
+	text-align: justify;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.bloquedescription1 h3{
+	margin-left: 20px;
+	color: #2583C4;
+}
+.bloquedescription1 .left{
+	margin-left: 20px;
+}
+.bloquedescription1 .right{
+	margin-right: 20px;
+}
+.caractéristique{
+	font-size: 15px;
+}
+/*description article*/
 /*fin page article detaillé*/
