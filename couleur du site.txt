@@ -1,4 +1,5 @@
-bleu : #2583C4;
+bleu menu : #2583C4;
+bleu clair : #00AEEF; 
 bleu footer foncée : #004365 ;
 jaune : #FFD770;
 
