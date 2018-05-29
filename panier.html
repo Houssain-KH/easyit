@@ -13,7 +13,8 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="carousel.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
 
 
 	<title>IT.Shop</title>
@@ -84,177 +85,42 @@
 </nav>
 
 <div class="container">
-	
 	<div class="borderFullBox">
 		<h2><b>Mon</b>Panier</h2>
-
-
-
-<style type="text/css">
-	////
-// FORM STEPS - REGISTRATION
-////
-.form-steps {
-  display: block;
-  width: 100%;
-  position: relative;
-  margin: 40px 0;
-}
-.form-steps:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.form-steps__item {
-  padding: 0;
-  position: relative;
-  display: block;
-  float: left;
-  width: 25%;
-  text-align: center;
-}
-.form-steps__item-content {
-  display: inline-block;
-}
-.form-steps__item-icon {
-  background: #eceff1;
-  color: #8191ab;
-  display: block;
-  border-radius: 100%;
-  text-align: center;
-  width: 25px;
-  height: 25px;
-  line-height: 25px;
-  margin: 0 auto 10px auto;
-  position: relative;
-  font-size: 13px;
-  font-weight: 700;
-  z-index: 2;
-}
-.form-steps__item-text {
-  font-size: 13px;
-  color: #8191ab;
-  font-weight: 500;
-}
-.form-steps__item-line {
-  display: inline-block;
-  height: 3px;
-  width: 100%;
-  background: #cfd8dc;
-  float: left;
-  position: absolute;
-  left: -50%;
-  top: 12px;
-  z-index: 1;
-}
-.form-steps__item--active .form-steps__item-icon {
-  background: #00aeef;
-  color: #fff;
-}
-.form-steps__item--active .form-steps__item-text {
-  color: #4f5e77;
-}
-.form-steps__item--active .form-steps__item-line {
-  background: #00aeef;
-}
-.form-steps__item--completed .form-steps__item-text {
-  color: #4f5e77;
-}
-.form-steps__item--completed .form-steps__item-icon {
-  background: #00aeef;
-  background-image: url(data:image/svg+xml;base64,PHN2ZyBkYXRhLW5hbWU9IkxheWVyIDEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDkuMTIgNyI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTkuMTIgMS4wNkw4LjA2IDAgMy4xOCA0Ljg4IDEuMDYgMi43NiAwIDMuODIgMy4xOCA3bDUuOTQtNS45NHoiLz48L3N2Zz4=);
-  color: transparent;
-  background-size: 10px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  width: 25px;
-  height: 25px;
-  line-height: 25px;
-}
-.form-steps__item--completed .form-steps__item-line {
-  background: #00aeef;
-}
-
-
-
-.contenttable img{
-	margin: 0 auto;
-}
-
-.imgpayement{
-	height: 70px;
-}
-
-ul li{ 
-list-style: none; }
-ul{
-	padding-left: 0;
-	font-size: 10px;
-}
-table button{
-	background-color: #00AEEF;
-	color: white;
-	border-radius: 3px;
-	margin-top: 20px;
-
-}
-table{
-	text-align: center;
-	margin: 0 auto;
-}
-table p{
-	margin-bottom: 0;
-	font-size: 12px;
-}
-table th{
-	padding-right: 20px;
-	padding-left: 20px;
-}
-
-</style>
-
-		
-					<nav class="form-steps">
-						<div class="form-steps__item form-steps__item--completed">
-							<div class="form-steps__item-content">
-								<span class="form-steps__item-icon">1</span>
-								<span class="form-steps__item-text">MON PANIER</span>
-							</div>
-
-						</div>
-						<div class="form-steps__item form-steps__item--completed">
-							<div class="form-steps__item-content">
-								<span class="form-steps__item-icon">2</span>
-								<span class="form-steps__item-line"></span>
-								<span class="form-steps__item-text">ADRESSE DE LIVRAISON</span>
-							</div>
-						</div>
-						<div class="form-steps__item form-steps__item--active">
-							<div class="form-steps__item-content">
-								<span class="form-steps__item-icon">3</span>
-								<span class="form-steps__item-line"></span>
-								<span class="form-steps__item-text">PAYEMENT</span>
-							</div>
-						</div>
-						<div class="form-steps__item">
-							<div class="form-steps__item-content">
-								<span class="form-steps__item-icon">4</span>
-								<span class="form-steps__item-line"></span>
-								<span class="form-steps__item-text">DERNIERE CONFIRMATION</span>
-							</div>
-						</div>
-					</nav>
-
-
-
-
-
-
-		<table rules="all" cellpadding="5px" style="border:solid 1px black;margin-top: 50px;">
-			<tr style="text-align: center; color: white; background-color:#2583C4; font-size: 14px; border:solid 2px #2583C4;">
-		      	<th>Article en détail</th><th>Prix à l'unité</th><th>Quantité</th><th>Montant total</th><th>Changer</th>
-		   	</tr>
-		   	<tr>
+		<nav class="form-steps">
+			<div class="form-steps__item form-steps__item--active">
+				<div class="form-steps__item-content">
+					<span class="form-steps__item-icon">1</span>
+					<span class="form-steps__item-text">MON PANIER</span>
+				</div>
+			</div>
+			<div class="form-steps__item">
+				<div class="form-steps__item-content">
+					<span class="form-steps__item-icon">2</span>
+					<span class="form-steps__item-line"></span>
+					<span class="form-steps__item-text">ADRESSE DE LIVRAISON</span>
+				</div>
+			</div>
+			<div class="form-steps__item">
+				<div class="form-steps__item-content">
+					<span class="form-steps__item-icon">3</span>
+					<span class="form-steps__item-line"></span>
+					<span class="form-steps__item-text">PAYEMENT</span>
+				</div>
+			</div>
+			<div class="form-steps__item">
+				<div class="form-steps__item-content">
+					<span class="form-steps__item-icon">4</span>
+					<span class="form-steps__item-line"></span>
+					<span class="form-steps__item-text">DERNIERE CONFIRMATION</span>
+				</div>
+			</div>
+		</nav>
+		<table class='tableachats' rules="all" cellpadding="5px">
+			<tr>
+	      		<th>Article en détail</th><th>Prix à l'unité</th><th>Quantité</th><th>Montant total</th><th>Changer</th>
+	   		</tr>
+	   		<tr>
 		    	<td>
 		    		<div class="row contenttable">
 		    			<div class="col justify-content-center align-self-center ">
@@ -262,7 +128,6 @@ table th{
 		    			</div>
 		    			<div class="col">
 			    			<p>LOGITECH Clavier sans fil K380 AZERTY FR</p>
-				    		
 				    		<ul>
 				    			<li>Touches rétroéclairées: Non</li>
 				    			<li>Type de batterie/pile: AAA</li>
@@ -274,13 +139,12 @@ table th{
 				    		</ul>
 			    		</div>
 		    		</div>
-		    		
 		    	</td>
 		    	<td>49.99€</td>
 		    	<td>
 		    		<form> 
-		    			<div class="form-group">
-						    <select class="form-control" id="exampleFormControlSelect1">
+		    			<div class="form-group pl-3 pr-3">
+						    <select class="form-control form-control-sm" id="exampleFormControlSelect1">
 						    	<option>1</option>
 						    	<option>2</option>
 						      	<option>3</option>
@@ -292,12 +156,11 @@ table th{
 				</td>
 		    	<td>49.99€</td>
 		    	<td>
-		    		<button>La prochaine fois</button>
+		    		<a href=""><button class="mr-1 ml-1 pl-1 pr-1">La prochaine fois</button></a>
 		    		<br>
-		    		<button>Supprimer</button></td>
-		   	</tr>
-
-
+		    		<a href=""><button class="pl-2 pr-2">Supprimer</button></a>
+		    	</td>
+	   		</tr>
 		   	<tr>
 		    	<td>
 		    		<div class="row contenttable">
@@ -323,8 +186,8 @@ table th{
 		    	<td>179€</td>
 		    	<td>
 		    		<form> 
-		    			<div class="form-group">
-						    <select class="form-control" id="exampleFormControlSelect1">
+		    			<div class="form-group pl-3 pr-3">
+						    <select class="form-control form-control-sm" id="exampleFormControlSelect1">
 						    	<option>1</option>
 						    	<option>2</option>
 						      	<option>3</option>
@@ -336,11 +199,11 @@ table th{
 				</td>
 		    	<td>179€</td>
 		    	<td>
-		    		<button>La prochaine fois</button>
+		    		<a href=""><button class="mr-1 ml-1 pl-1 pr-1">La prochaine fois</button></a>
 		    		<br>
-		    		<button>Supprimer</button></td>
+		    		<a href=""><button class="pl-2 pr-2">Supprimer</button></a>
+		    	</td>
 		   	</tr>
-
 		   	<tr>
 		    	<td>
 		    		<div class="row contenttable">
@@ -366,8 +229,8 @@ table th{
 		    	<td>1369€</td>
 		    	<td>
 		    		<form> 
-		    			<div class="form-group">
-						    <select class="form-control" id="exampleFormControlSelect1">
+		    			<div class="form-group pl-3 pr-3">
+						    <select class="form-control form-control-sm" id="exampleFormControlSelect1">
 						    	<option>1</option>
 						    	<option>2</option>
 						      	<option>3</option>
@@ -379,86 +242,105 @@ table th{
 				</td>
 		    	<td>1369€</td>
 		    	<td>
-		    		<button>La prochaine fois</button>
+		    		<a href=""><button class="mr-1 ml-1 pl-1 pr-1">La prochaine fois</button></a>
 		    		<br>
-		    		<button>Supprimer</button></td>
+		    		<a href=""><button class="pl-2 pr-2">Supprimer</button></a>
+		    	</td>
 		   	</tr>
-		</table> 
+		   	<tr>
+		    	<td style="border: none;">
+		    	</td>
+		    	<td style="border: none;"></td>
+		    	<td>
+		    		3
+				</td>
+		    	<td class="pr-2 pl-2">Total de votre panier : <b>1597.99€ TTC</b></td>
+		    	<td>
+		    		<div class="container-login100-form-btn pl-4 pr-4 pt-2 pb-2" style=" margin: 0 auto ;">
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbtn"></div>
+							<a href="panieradresse.html" class="login100-form-btn">
+								COMMANDEZ
+							</a>
+						</div>
+					</div> 
+		    	</td>
+		   	</tr>
+		</table>
+		
 	</div>
-
 </div>
 
 
 <footer class="footer">
-    <div class="container">
-    	<h1 class="text-center footerh1 pt-5"><b>Easy IT</b> vous offre les derniers produits Hight Tech sur le marché à un prix imbattable.</h1>
-    	<hr class="col-md-2 hrfooter">
-    	<form>
-    		<div class="form-group row mb-0 mt-4 justify-content-md-center">
-    			<input type="email" class="form-control col-md-3 mr-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Entrez votre E-mail">
-    			<button type="submit" class="btn btn-primary col-md-1 btnenvoyernewsletter">Envoyé</button>
-    		</div>
-    	</form>	
-    	<section id="footer">
-		<div class="container ml-5">
-			<div class="row text-center text-xs-center text-sm-left text-md-left ml-5">
-				<div class="col-xs-12 col-sm-4 col-md-4">
-					<h5>Menu</h5>
-					<ul class="list-unstyled quick-links">
-						<li><a href="#"><i class="fa fa-angle-double-right"></i>Accueil</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right"></i>Mon Compte</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right"></i>Mes Favoris</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right"></i>Mon Panier</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right"></i>News Letter</a></li>
-					</ul>
-				</div>
-				<div class="col-xs-12 col-sm-4 col-md-4">
-					<h5>Achetez</h5>
-					<ul class="list-unstyled quick-links">
-						<li><a href="#"><i class="fa fa-angle-double-right"></i>Toutes les Categories</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right"></i>Les Derniers Produits</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right"></i>Les Mieux Notés</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right"></i>Vos Préféres</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right"></i>Futur Produits</a></li>
-					</ul>
-				</div>
-				<div class="col-xs-12 col-sm-4 col-md-4">
-					<h5>Vendre</h5>
-					<ul class="list-unstyled quick-links">
-						<li><a href="#"><i class="fa fa-angle-double-right"></i>Commencez maintenant</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right"></i>À Propos</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right"></i>Contact</a></li>
-						<li><a href="#"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
-					</ul>
-				</div>
+	<div class="container">
+		<h1 class="text-center footerh1 pt-5"><b>Easy IT</b> vous offre les derniers produits Hight Tech sur le marché à un prix imbattable.</h1>
+		<hr class="col-md-2 hrfooter">
+		<form>
+			<div class="form-group row mb-0 mt-4 justify-content-md-center">
+				<input type="email" class="form-control col-md-3 mr-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Entrez votre E-mail">
+				<button type="submit" class="btn btn-primary col-md-1 btnenvoyernewsletter">Envoyé</button>
 			</div>
-			<div class="row" style="padding-right: 100px;">
-				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5 ">
-					<ul class="list-unstyled list-inline social text-center">
-						<li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
-						<li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
-						<li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-envelope"></i></a></li>
-					</ul>
-					<hr class="col-md-1 hrfooter">
+		</form>	
+		<section id="footer">
+			<div class="container ml-5">
+				<div class="row text-center text-xs-center text-sm-left text-md-left ml-5">
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<h5>Menu</h5>
+						<ul class="list-unstyled quick-links">
+							<li><a href="#"><i class="fa fa-angle-double-right"></i>Accueil</a></li>
+							<li><a href="#"><i class="fa fa-angle-double-right"></i>Mon Compte</a></li>
+							<li><a href="#"><i class="fa fa-angle-double-right"></i>Mes Favoris</a></li>
+							<li><a href="#"><i class="fa fa-angle-double-right"></i>Mon Panier</a></li>
+							<li><a href="#"><i class="fa fa-angle-double-right"></i>News Letter</a></li>
+						</ul>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<h5>Achetez</h5>
+						<ul class="list-unstyled quick-links">
+							<li><a href="#"><i class="fa fa-angle-double-right"></i>Toutes les Categories</a></li>
+							<li><a href="#"><i class="fa fa-angle-double-right"></i>Les Derniers Produits</a></li>
+							<li><a href="#"><i class="fa fa-angle-double-right"></i>Les Mieux Notés</a></li>
+							<li><a href="#"><i class="fa fa-angle-double-right"></i>Vos Préféres</a></li>
+							<li><a href="#"><i class="fa fa-angle-double-right"></i>Futur Produits</a></li>
+						</ul>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<h5>Vendre</h5>
+						<ul class="list-unstyled quick-links">
+							<li><a href="#"><i class="fa fa-angle-double-right"></i>Commencez maintenant</a></li>
+							<li><a href="#"><i class="fa fa-angle-double-right"></i>À Propos</a></li>
+							<li><a href="#"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+							<li><a href="#"><i class="fa fa-angle-double-right"></i>Contact</a></li>
+							<li><a href="#"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
+						</ul>
+					</div>
 				</div>
-				
-			</div>	
-			<div class="row" style="padding-right: 100px;">
-				<img  class="img-fluid mx-auto" alt="Responsive image" src="img/payment.png" style="height: 30px;">
+				<div class="row" style="padding-right: 100px;">
+					<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5 ">
+						<ul class="list-unstyled list-inline social text-center">
+							<li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
+							<li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+							<li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-envelope"></i></a></li>
+						</ul>
+						<hr class="col-md-1 hrfooter">
+					</div>
+					
+				</div>	
+				<div class="row" style="padding-right: 100px;">
+					<img  class="img-fluid mx-auto" alt="Responsive image" src="img/payment.png" style="height: 30px;">
+				</div>
+				<div class="row" style="padding-right: 100px;">
+					<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+						<p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="#" target="_blank">Easy IT</a></p>
+					</div>
+					</hr>
+				</div>	
 			</div>
-			<div class="row" style="padding-right: 100px;">
-				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
-					<p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="#" target="_blank">Easy IT</a></p>
-				</div>
-				</hr>
-			</div>	
-		</div>
-	</section>
-
-    </div>
+		</section>
+	</div>
 </footer>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
