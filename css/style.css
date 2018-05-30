@@ -838,3 +838,9 @@ button:hover {
 }
 
 /*fin page achats ligne du temps */
+
+/*page paiement*/
+.bloquepayement img{
+	height: 150px;
+}
+/*fin page paiement*/
