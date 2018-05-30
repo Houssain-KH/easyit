@@ -13,6 +13,8 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
 	<script src="carousel.js"></script>
 
 
@@ -85,7 +87,7 @@
 
 <div class="container">
 	<div class="borderFullBox">
-		<h2><b>Mon</b>Panier</h2>
+		<h2><b>Mon </b>Panier</h2>
 		<nav class="form-steps">
 			<div class="form-steps__item form-steps__item--completed">
 				<div class="form-steps__item-content">
@@ -118,7 +120,7 @@
 
 		<div class="row">
 			<form class="col-md-6">
-				<h2>Ajoutez une nouvelle adresse</h2>
+				<h3 class="text-center" style="color: #2583C4;">Ajoutez une nouvelle adresse</h3>
 				<label for="example-text-input" class="col-6 col-form-label ml-5">Nom et Prénom</label>
 				<div class="col-10 mx-auto">
 					<input class="form-control" type="text" value="" id="example-text-input">
@@ -147,13 +149,17 @@
   				<div class="col-10 mx-auto">
     				<input class="form-control" type="tel" value="" id="example-tel-input">
   				</div>
-  				<div class="text-center">
-  					<button type="submit" class="btn btn-primary mt-4 mb-5">Livrer à cette adresse</button>
-  				</div>
-  				
+  				<div class="container-login100-form-btn mt-3" style="width: 200px; margin:auto;" >
+					<div class="wrap-login100-form-btn">
+						<div class="login100-form-bgbtn"></div>
+						<button class="login100-form-btn">
+							Livrer à cette adresse
+						</button>
+					</div>
+				</div>
 			</form>
 			<form class="col-md-6">
-				<h2>ou choissisez un point de collecte</h2>
+				<h3 class="text-center" style="color: #2583C4;">ou choissisez un point de collecte</h3>
 				<label for="example-text-input" class="col-6 col-form-label  ml-5">Pays</label>
 				<div class="col-10 mx-auto">
 					<select class="form-control bfh-countries" data-country="BE"></select>
@@ -173,9 +179,14 @@
 					<input class="form-control" type="text" value="" id="example-text-input">
 					<small id="emailHelp" class="form-text text-muted ">exemple : Grand-Place, Petit-Sablon </small>
 				</div>
-				<div class="text-center">
-					<button type="submit" class="btn btn-primary mt-4">Cherchez</button>
-				</div>
+				<div class="container-login100-form-btn mt-3" style="width: 200px; margin:auto;" >
+							<div class="wrap-login100-form-btn">
+								<div class="login100-form-bgbtn"></div>
+								<button class="login100-form-btn">
+									Chercher
+								</button>
+							</div>
+						</div>
 			</form>
 		</div>
 		
