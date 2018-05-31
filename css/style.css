@@ -42,15 +42,24 @@ body{
 }
 
 .linkmenutop{
-	color: #FFD770;
+	
 	text-decoration: none;
 	border-color: #2583C4;
+}
+.linkmenutop:hover{
+	background-color: #FFD770 !important;
+}
+.linkmenutop a{
+	color: #FFD770;
+}
+.linkmenutop a:hover{
+	color: #2583C4;
+	text-decoration: none;
 }
 .linkmenucompte{
 	color: #FFD770;
 	text-decoration: none;
 	border-color: #2583C4;
-	
 }
 .linkmenucompte:hover{
 	text-decoration: none;
