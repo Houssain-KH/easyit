@@ -144,7 +144,7 @@ h2 b {
 }
 h2::after {
 	content: "";
-	width: 100px;
+	width: 20%;
 	position: absolute;
 	margin: 0 auto;
 	height: 4px;
@@ -288,7 +288,7 @@ h2::after {
 }
 .h2temoign::after {
 	content: "";
-	width: 100px;
+	width: 20%;
 	position: absolute;
 	margin: 0 auto;
 	height: 4px;
